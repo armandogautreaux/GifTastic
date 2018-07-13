@@ -1,0 +1,72 @@
+/*
+	Author: Armando Gautreaux
+	Template: GifTastic Game
+	Version: 0.1
+	GITHUB: https://github.com/armandogautreaux
+*/
+
+/* TABLE OF CONTENTS
+  1.  General Styles
+  2.  Game Content
+  3.  Aside Content
+  4.  Media (640px)
+*/
+
+/*
+========================================
+1. General Styles
+========================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #12435e;
+}
+
+h3 {
+  font-family: 'Arvo', serif;
+  font-size: 1.5rem;
+}
+/*
+========================================
+2. Game Content
+========================================
+*/
+
+.bg-pattern {
+  background: url(../images/geometry2.png);
+}
+
+/*
+========================================
+3. Aside Content
+========================================
+*/
+
+.logo {
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: 4px 4px black;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.bg-aside {
+  background: #00effd;
+  height: 1020px;
+}
+
+/*
+========================================
+4. Media (640px)
+========================================
+*/
+
+@media screen and (max-width: 640px) {
+  .bg-aside {
+    height: 540px;
+  }
+}
